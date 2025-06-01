@@ -13,7 +13,7 @@ int main(){
         c = c - 32; // converts to uppercase by subtracting from ASCII Val
     }
     }
-    for (char & c : lastSlice) { // Converts last name to lowercase if uppercase
+    for (char & c : lastSlice) { // Converts last name to uppercase 
     if (c >= 'a' && c <= 'z') {
         c = c - 32; // converts to uppercase by subtracting from ASCII Val
     }
