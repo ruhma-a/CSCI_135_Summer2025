@@ -1,0 +1,27 @@
+// This project prompts a user to correctly guess a number between 1 and 10.
+#include <iostream>
+using namespace std;
+
+int main() {
+    int number = 3; // Hardcodes the number user must guess
+    int guess;
+
+    cout << "Guess a number between 1 and 10: ";
+    cin >> guess;
+
+    while (guess != number) // Sets up a loop to continue until the user guesses the correct number
+    {
+        if (guess < 3) // Checks if the guess is too low
+        {
+            cout << "Too low! Try again: ";
+        }
+        else if (guess > 3) // Checks if the guess is too high
+        {
+            cout << "Too high! Try again: ";
+        }
+        cin >> guess;
+    } 
+
+    cout << "Correct! Well done." << endl; // Returns a success message when user guesses correctly
+    return 0;
+}
