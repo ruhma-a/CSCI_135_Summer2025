@@ -2,7 +2,8 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int main() 
+{
     int number = 3; // Hardcodes the number user must guess
     int guess;
 
