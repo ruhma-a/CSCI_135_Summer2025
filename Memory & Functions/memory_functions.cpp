@@ -157,5 +157,6 @@ int main()
     cout << "Zero odd indices: ";
     for (int i : testArr) cout << i << " ";
     cout << endl;
+    
     return 0;
 }
