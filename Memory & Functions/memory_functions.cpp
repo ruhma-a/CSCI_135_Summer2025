@@ -70,11 +70,13 @@ int* maxPointer(int* a, int* b)
     }
 }
 
-void reverseArray(int* arr, int size) {
+void reverseArray(int* arr, int size) 
+{
     int* start = arr;
     int* end = arr + size - 1;
 
-    while (start < end) {
+    while (start < end) 
+    {
         int temp = *start;
         *start = *end;
         *end = temp;
@@ -155,5 +157,6 @@ int main()
     cout << "Zero odd indices: ";
     for (int i : testArr) cout << i << " ";
     cout << endl;
+    
     return 0;
 }
